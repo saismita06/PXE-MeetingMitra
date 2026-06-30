@@ -47,7 +47,6 @@ fi
 
 # Set proper ownership for all files
 sudo chown -R $USER:$USER /opt/transcription-app
-
 # Create systemd service file
 sudo tee /etc/systemd/system/transcription.service << EOF
 [Unit]
